@@ -1,0 +1,89 @@
+version: "2.0"
+nlu:
+    
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: buy_phone_laptop
+  examples: |
+    - I would like to buy a [phone](category)
+    - I want to buy a [laptop](category)
+    - Please suggest me a good [laptop](category)
+    - I wanted to purchase a [phone](category)
+    - Can you recommend me a [laptop](category)
+    - give me some recommendations for [mobile phones](category)
+    - Can you suggest a [laptop](category)
+    - I wanna buy a [phone](category)
+    - Im interested in purchasing a [smartphone](category)
+
+- intent: latest_news_phones_laptops
+  examples: |
+    - Whats the latest news with [phones](category)
+    - Can you tell me about the trends regarding [phones](category)
+    - Whats going in the tech world for [laptops](category)
+    - Can you show me the trends in [laptops](category)
+    - Any new releases for [mobiles](category), whats the news
+    - update me on the [mobile](category) news
+    - show me the latest news for [mobiles](category)
+ 
+- intent: bye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- synonym:phone
+   examples: |
+    - mobiles
+    - mobile
+    - smart phone
+    
+    
+    

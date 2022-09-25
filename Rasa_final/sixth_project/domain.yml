@@ -1,0 +1,37 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
+
+intents:
+- greet
+- buy_phone_laptop
+- latest_news_phones_laptops
+- give_information
+- goodbye
+
+entities:
+- category
+- RAM
+- battery
+- camera
+
+responses:
+  utter_how_can_I_help:
+  - text: Welcome. I'm your shopping bot. I can help you with ffinding a phone or laptop and providing latest news for them!
+  utter_ask_ram:
+  - text: How much GB RAM are you looking for?
+  utter_ask_camera:
+  - text: What megapixel camera are you looking for?
+  utter_ask_battery:
+  - text: How much battery capacity are you looking for in the mobile?
+  utter_goodbye:
+  - text: It was nice talking to you! Goodbye!
+
+actions:
+- utter_how_can_I_help
+- utter_ask_ram
+- utter_ask_camera
+- utter_ask_battery
+- utter_goodbye
+- action_search
+- action_show_latest_news

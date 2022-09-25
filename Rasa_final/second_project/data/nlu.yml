@@ -1,0 +1,83 @@
+version: "2.0"
+nlu:
+    
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: buy_phone_laptop
+  examples: |
+    - I would like to buy a [phone]{"entity":"category","value":"phone"}
+    - I want to buy a [laptop]{"entity":"category","value":"phone"}
+    - Please suggest me a good [laptop]{"entity":"category","value":"phone"}
+    - I wanted to purchase a [phone]{"entity":"category","value":"phone"}
+    - Can you recommend me a [laptop]{"entity":"category","value":"phone"}
+    - give me some recommendations for [mobile phones]{"entity":"category","value":"phone"}
+    - Can you suggest a [laptop]{"entity":"category","value":"phone"}
+    - I wanna buy a [phone]{"entity":"category","value":"phone"}
+    - Im interested in purchasing a [smartphone]{"entity":"category","value":"phone"}
+
+- intent: latest_news_phones_laptops
+  examples: |
+    - Whats the latest news with [phones]{"entity":"category","value":"phone"}
+    - Can you tell me about the trends regarding [phones]{"entity":"category","value":"phone"}
+    - Whats going in the tech world for [laptops]{"entity":"category","value":"phone"}
+    - Can you show me the trends in [laptops]{"entity":"category","value":"phone"}
+    - Any new releases for [mobiles]{"entity":"category","value":"phone"}
+    - update me on the [mobile]{"entity":"category","value":"phone"} news
+    - show me the latest news for [mobiles]{"entity":"category","value":"phone"}
+ 
+- intent: bye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    
+    
